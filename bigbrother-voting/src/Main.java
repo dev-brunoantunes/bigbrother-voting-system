@@ -22,17 +22,17 @@ public class Main {
         switch (vote) {
             case 1:
                 participant.setParticipantName("Ana Paula");
-                System.out.println("\nSeu voto foi confirmado ( Ana Paula )");
+                System.out.println("\nSeu voto foi confirmado " + "( " + participant.getParticipantName() + " )");
                 participant.voteFunction();
                 break;
             case 2:
                 participant.setParticipantName("Babu");
-                System.out.println("\nSeu voto foi confirmado ( Babu )");
+                System.out.println("\nSeu voto foi confirmado " + "( " + participant.getParticipantName() + " )");
                 participant.voteFunction();
                 break;
             case 3:
                 participant.setParticipantName("Jonas");
-                System.out.println("\nSeu voto foi confirmado ( Jonas )");
+                System.out.println("\nSeu voto foi confirmado " + "( " + participant.getParticipantName() + " )");
                 participant.voteFunction();
                 break;
         }
